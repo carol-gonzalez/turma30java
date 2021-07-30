@@ -1,2 +1,4 @@
 # turma30java
-Turma 30 desenvolvedor java jr-  bootcamp Generation
+Generation Brasil
+Bootcamp - Turma 30 
+Desenvolvedor Web Full Stack Java Jr
