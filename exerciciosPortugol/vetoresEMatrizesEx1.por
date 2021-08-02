@@ -1,0 +1,38 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numeros [5]
+		inteiro pontuacao = 0
+
+		para (inteiro i = 0; i <= 4; i++){
+			escreva("Escreva os números: ")
+			leia(numeros[i])
+		}
+
+		para (inteiro i = 0; i <= 4; i++){
+			escreva (numeros[i] + "\t")
+
+			se (pontuacao < numeros[i]){
+				pontuacao = numeros[i]
+				
+			}
+		}
+
+		escreva ("\n Maior pontuação: " +pontuacao)
+		
+		
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 182; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
