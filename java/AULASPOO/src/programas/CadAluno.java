@@ -87,11 +87,11 @@ public class CadAluno {
 		// notas atualizadas
 		for (int x=0 ; x<alunes.length ; x++) {
 			if (nota[x] > 0 && ativo[x] == true) {
-				System.out.printf("Matricula: "+matriculas[x]+" Alunes: "+alunes[x]+ "Notas: "+nota[x]+" Status: "+ativo[x]);
+				System.out.printf("Matricula: "+matriculas[x]+" \nAlunes: "+alunes[x]+ "\nNotas: "+nota[x]+" \nStatus: "+ativo[x]);
 					if (nota[x] > 5) {
-						System.out.println("Obs: Parabéns! Continue assim!");
+						System.out.println("\nObs: Parabéns! Continue assim!");
 					} else {
-						System.out.println("Obs: Precisa estudar mais!");
+						System.out.println("\nObs: Precisa estudar mais!");
 					}
 			}
 		}

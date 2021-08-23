@@ -26,19 +26,17 @@ public class Aluno {
 	
 	//metodo
 	public void mostraIdade() {
-		System.out.println("a idade é "+(2021-anoNascimento));
+		System.out.println("A idade é "+(2021-anoNascimento));
 	}
 	
 	//sobrecarga de metodo (solicita a informação dentro do programa)
 	public void mostraIdade(int anoAtual) {
-		System.out.println("a idade é "+(anoAtual-anoNascimento));
+		System.out.println("A idade é "+(anoAtual-anoNascimento));
 	}
 	public void mostraIdade(int anoAtual,int anoNascimento) {
 		if (anoNascimento != this.anoNascimento) {
-			System.out.println("Voce trocou o ano de nascimento OK??");
+			System.out.println("Você trocou o ano de nascimento, ok?");
 		}
-		System.out.println("a idade é "+(anoAtual-anoNascimento));
+		System.out.println("A idade é "+(anoAtual-anoNascimento));
 	}
-
-	
 }
