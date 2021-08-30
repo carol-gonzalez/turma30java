@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="com.minhalojadegames.minhaLojaDeGames.repository.PostagemRepository"/>
+    <fullyQualifiedTypeName name="com.minhalojadegames.minhaLojaDeGames.model.Postagem"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="com.minhalojadegames.minhaLojaDeGames.model.Categoria"/>
+    <fullyQualifiedTypeName name="com.minhalojadegames.minhaLojaDeGames.repository.CategoriaRepository"/>
+</qualifiedTypeNameHistroy>
