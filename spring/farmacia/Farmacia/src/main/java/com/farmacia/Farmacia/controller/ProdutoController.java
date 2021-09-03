@@ -1,6 +1,7 @@
-package com.minhalojadegames.minhaLojaDeGames.controller;
+package com.farmacia.Farmacia.controller;
 
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,13 +15,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.minhalojadegames.minhaLojaDeGames.model.Produto;
-import com.minhalojadegames.minhaLojaDeGames.repository.ProdutoRepository;
+import com.farmacia.Farmacia.model.Produto;
+import com.farmacia.Farmacia.repository.ProdutoRepository;
 
 @RestController
 @RequestMapping("/produtos")
 @CrossOrigin("*")
-
 public class ProdutoController {
 	
 	@Autowired
@@ -36,9 +36,9 @@ public class ProdutoController {
 		return repository.findById(id).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}
 	
-	@GetMapping("/produto/{produto}")
-	public ResponseEntity<List<Produto>> findByProduto(@PathVariable String produto){
-		return ResponseEntity.ok(repository.findAllByProdutoContainingIgnoreCase(produto));
+	@GetMapping("/remedio/{remedio}")
+	public ResponseEntity<List<Produto>> findByRemedio(@PathVariable String remedio){
+		return ResponseEntity.ok(repository.findAllByRemedioContainingIgnoreCase(remedio));
 	}
 	
 	@PostMapping
