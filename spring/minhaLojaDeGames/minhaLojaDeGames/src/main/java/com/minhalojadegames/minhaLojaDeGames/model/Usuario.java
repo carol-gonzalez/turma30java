@@ -1,7 +1,6 @@
-package org.generation.blogPessoal.model;
+package com.minhalojadegames.minhaLojaDeGames.model;
 
 import java.util.Optional;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

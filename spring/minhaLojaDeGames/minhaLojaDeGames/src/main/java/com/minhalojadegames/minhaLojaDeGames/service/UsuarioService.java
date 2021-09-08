@@ -1,15 +1,15 @@
-package org.generation.blogPessoal.service;
+package com.minhalojadegames.minhaLojaDeGames.service;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
-
 import org.apache.commons.codec.binary.Base64;
-import org.generation.blogPessoal.model.UserLogin;
-import org.generation.blogPessoal.model.Usuario;
-import org.generation.blogPessoal.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.minhalojadegames.minhaLojaDeGames.model.UserLogin;
+import com.minhalojadegames.minhaLojaDeGames.model.Usuario;
+import com.minhalojadegames.minhaLojaDeGames.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {
