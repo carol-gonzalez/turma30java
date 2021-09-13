@@ -1,7 +1,5 @@
 package org.generation.blogPessoal.model;
 
-import java.util.Optional;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -29,6 +27,15 @@ public class Usuario {
 	@NotNull
 	@Size (min = 5, max = 100)
 	private String senha;
+	
+	public Usuario (){}
+
+	public Usuario(long id, String nome, String usuario, String senha) {
+		this.id = id;
+		this.nome = nome;
+		this.usuario = usuario;
+		this.senha = senha;
+	}
 
 	public long getId() {
 		return id;
